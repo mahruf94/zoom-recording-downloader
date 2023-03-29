@@ -1,3 +1,5 @@
+# Mahruf's Edit
+- Only added a line to filter out "share_screen_with_speaker_view" otherwise downloads everything.
 # zoom-recording-downloader
 
 [![Python 3.6](https://img.shields.io/badge/python-3.6%20%2B-blue.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-MIT-brown.svg)](https://raw.githubusercontent.com/ricardorodrigues-ca/zoom-recording-downloader/master/LICENSE)
