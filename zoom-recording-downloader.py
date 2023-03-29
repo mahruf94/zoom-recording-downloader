@@ -122,8 +122,9 @@ def get_downloads(recording):
         else:
             recording_type = download['file_type']
         # must append JWT token to download_url
-        download_url = download['download_url'] + "?access_token=" + JWT_TOKEN
-        downloads.append((file_type, file_extension, download_url, recording_type, recording_id))
+        if recording_type == 'shared_screen_with_speaker_view':
+            download_url = download['download_url'] + "?access_token=" + JWT_TOKEN
+            downloads.append((file_type, file_extension, download_url, recording_type, recording_id))
     return downloads
 
 
